@@ -1,7 +1,4 @@
 
-
-
-
 ## Dokumentation – OmnAIView Projekt
 
 ## 1. Wie schreibe ich eine vernünftige Dokumentation für das OmnAIView-Projekt?
@@ -54,17 +51,28 @@ Im Prinzip ist das die Aufgabe von OmnAIView: dem Nutzer die Möglichkeit zu bie
 Da es sich um ein Modul eines Softwareprojekts handelt, ist OmnAIView in verschiedensten industriellen Bereichen denkbar.
 
   
-
 Welche Daten kann OmnAIView darstellen?
 
 Das OmnAIView stellt einen Datenstrom aus timestamp:value Tupeln dar.
 Das bedeutet alle Daten die in einem unbegrenztem Zeitraum produziert und empfangen sind(
-z.B Lichtintensitätmessungen) können mit OmniAIView-Software in einem Format wie z.B 01.01.2001:900Lx 
+z.B Lichtintensitätmessungen) können mit OmniAIView-Software in einem Format wie z.B 978350400(Unix timestamp):900Lx 
 in einem Graph dargestellt werden.
    
+Im Grossen und Ganzen: Jeder, der seine Zeitreihendaten in einem Graphen präsentieren möchte ist ein potenzieller Nutzer.
 
-## 1.2.3 Für wen schreibe ich die Dokumentation?
+## 1.2.3 Was sind die Zeitreihendaten?
 
+Unter Zeitreihendaten versteht man eine bestimmte Art von Daten, bei denen Beobachtungen in regelmässigen und kontinuierlichen Zeitraum erfasst werden.
+Daten dieser Art sind von seiner Natur aus chronologisch und bilden zeitliche abfolge.
+Zeitreihendaten begegnen uns täglich im Alltag z.B
+
+- 01.01.2001 13:00:00 : 2.5°C
+- 01.01.2002 13:00:00 : 3.5°C
+- 01.01.2003 13:00:00 : 4.5°C
+
+Daraus könnten wir eine Hervorsage tätigen dass am 01.01.2004 um 13:00:00 die Temperatur etwa um 1°C höher als um gleich Uhrzeit letztes Jahr ausfallen wird.
+ 
+## 1.2.4 Für wen schreibe ich die Dokumentation?
 
 Da es sich um ein Open-Source-Hard- und Softwareprojekt handelt, ist es wünschenswert, dass sich weitere Entwickler entscheiden, an der Entwicklung teilzunehmen.
 
