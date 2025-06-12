@@ -1,3 +1,7 @@
+
+
+
+
 ## Dokumentation – OmnAIView Projekt
 
 ## 1. Wie schreibe ich eine vernünftige Dokumentation für das OmnAIView-Projekt?
@@ -32,36 +36,39 @@ Um den Inhalt der Dokumentation sinnvoll und in logischer Reihenfolge zu gestalt
 
 ## 1.2.1 Was ist OmnAIView?
 
-OmnAIView ist ein Modul innerhalb eines größeren Softwareprojekts, das dazu dient, vom Nutzer oder vom Gerät empfangene Daten (z. B. Wechselspannungen) in Form einer Vektorgrafik darzustellen. 
-Das Ziel dieses Moduls ist es, dem Endnutzer die Darstellung empfangener Daten in verschiedenen Formen zu ermöglichen. Was bedeutet das konkret?
+OmnAIView ist ein Modul innerhalb eines größeren Softwareprojekts, das dazu dient, vom Nutzer oder vom Gerät empfangene Daten (z. B. Wechselspannungen) in Form einer Vektorgrafik darzustellen.
+ 
+Das Ziel dieses Moduls ist es, dem Endnutzer die Darstellung empfangener Daten in verschiedenen Formen zu ermöglichen. Was bedeutet das konkret?  
+
 Betrachten wir das Beispiel einer Wechselspannung – wie ließe sich diese am sinnvollsten visualisieren? Richtig: ein Zeigerdiagramm wäre hier am verständlichsten.
+  
 Ein weiteres Beispiel:
+
 Soll der Nutzer die Drehzahl eines Motors visualisieren, wäre ein Zeitverlaufsdiagramm wahrscheinlich die intuitivste und nachvollziehbarste Form der Darstellung.
+
 Im Prinzip ist das die Aufgabe von OmnAIView: dem Nutzer die Möglichkeit zu bieten, verschiedene Endgeräte anzubinden und die empfangenen Daten in verschiedener Form visuell aufzubereiten.
+
 
 ## 1.2.2 Für wen ist OmnAIView gedacht?
 
 Da es sich um ein Modul eines Softwareprojekts handelt, ist OmnAIView in verschiedensten industriellen Bereichen denkbar.
+
+  
+
 Welche Daten kann OmnAIView darstellen?
-Das hängt davon ab, welches Messgerät verwendet wird. In der Industrie sind häufig folgende Messgrößen üblich:
-- Temperatur
 
-- Gewicht
-
-- Geschwindigkeit
-
-- u. v. m.
-
-All diese Daten lassen sich mit entsprechender Visualisierungssoftware sehr gut darstellen.
-Im Großen und Ganzen: Jeder, der ein Messgerät mit Anschlussmöglichkeit an einen Computer nutzt, könnte theoretisch zur Zielgruppe von OmnAIView gehören.
+Das OmnAIView stellt einen Datenstrom aus timestamp:value Tupeln dar.
+Das bedeutet alle Daten die in einem unbegrenztem Zeitraum produziert und empfangen sind(
+z.B Lichtintensitätmessungen) können mit OmniAIView-Software in einem Format wie z.B 01.01.2001:900Lx 
+in einem Graph dargestellt werden.
+   
 
 ## 1.2.3 Für wen schreibe ich die Dokumentation?
+
 
 Da es sich um ein Open-Source-Hard- und Softwareprojekt handelt, ist es wünschenswert, dass sich weitere Entwickler entscheiden, an der Entwicklung teilzunehmen.
 
 Die Mitwirkung an dem Projekt setzt voraus, dass man über ausreichende fachliche Kenntnisse verfügt, um sich mithilfe der Dokumentation in das Projekt einzuarbeiten oder diese zumindest als unterstützendes Hilfsmittel beim Onboarding nutzen zu können.
-
-________________________________________
 
 Zurück zur Ausgangsfrage 1.0.0: "Wie schreibe ich eine vernünftige Dokumentation?"
 
