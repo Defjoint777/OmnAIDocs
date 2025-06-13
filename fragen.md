@@ -78,6 +78,8 @@ Da es sich um ein Open-Source-Hard- und Softwareprojekt handelt, ist es wünsche
 
 Die Mitwirkung an dem Projekt setzt voraus, dass man über ausreichende fachliche Kenntnisse verfügt, um sich mithilfe der Dokumentation in das Projekt einzuarbeiten oder diese zumindest als unterstützendes Hilfsmittel beim Onboarding nutzen zu können.
 
+Das Hauptziel der Dokumentation ist ein liniares, selbsterklärendes Handbuch bereitzustellen, welches innerhalb eines Tages gelesen und verstanden werden kann. Das Handbuch soll ermöglichen ein Überblick über Inhalt, Module, Schnittstellen, Begriffe und Design-Guidelines liefern.
+
 Zurück zur Ausgangsfrage 1.0.0: "Wie schreibe ich eine vernünftige Dokumentation?"
 
 Indem ich einfach anfange, die Dokumentation zu schreiben – und mich dabei aktiv mit der Materie auseinandersetze. 😉
